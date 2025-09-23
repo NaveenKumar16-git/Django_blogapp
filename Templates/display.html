@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title> Buses </title>
+	</head>
+<body>
+<h1>Bus Details</h1>
+	{% for detail in bus_details %}
+		<h2>{{ detail.Bus_No }}</h2>
+		<p>{{ detail.Departure_Time }}<p>
+		<p>{{ detail.Destinations }}<p>
+		<p>{{ detail.Seats_Available }}<p>
+		<p>{{ detail.TicketsCosts }}<p>
+	{% endfor %}
+</body>
+</html>

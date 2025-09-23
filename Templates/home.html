@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title>ABC Buses</title>
+</head>
+<h1>Book Tickets</h1>
+<form action ="." method = "POST">
+	{%csrf_token%}
+	<table>{{form.as_table}}</table><br>
+	<input type="submit"value="Book Ticket"> 
+</form>
+</body>
+</html>
